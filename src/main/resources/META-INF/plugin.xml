@@ -110,9 +110,6 @@
         <action id="leetcode.OpenInWebAction" class="com.shuzijun.leetcode.plugin.actions.tree.OpenInWebAction"
                 text="open in web" description="open in web" icon="LeetCodeEditorIcons.POPUP">
         </action>
-        <action id="leetcode.OpenFolderAction" class="com.shuzijun.leetcode.plugin.actions.tree.OpenFolderAction"
-                text="open folder" description="open folder" icon="LeetCodeEditorIcons.POPUP">
-        </action>
 
         <action id="leetcode.SubmitAction" class="com.shuzijun.leetcode.plugin.actions.tree.SubmitAction"
                 text="Submit" description="Submit" icon="LeetCodeEditorIcons.SUBMIT">
@@ -160,7 +157,6 @@
             <reference id="leetcode.OpenContentAction"/>
             <reference id="leetcode.OpenSolutionAction"/>
             <reference id="leetcode.OpenInWebAction"/>
-            <reference id="leetcode.OpenFolderAction"/>
             <separator/>
             <reference id="leetcode.SubmitAction"/>
             <reference id="leetcode.SubmissionsAction"/>
